@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Form Syachdat</title>
+</head>
+<body style = "background-image: url(pak2.jpeg); font-family: Times New Roman;  ">
+<h1 style = "text-align: center; color: white; font-family: Times New Roman;" >Form Registrasi Mahasiswa</h1>
+	<form>
+	<fieldset style="background-color: lightblue;  background-image: url(paksatu.jpeg); background-repeat: repeat;  background-position: center">
+	<h2 style = "color: red;"> DATA DIRI </h2>
+	<hr>
+	<label style = "text-align: center;" for="date">Date</label><br>
+	<input type="date" name="date" id="date"><br>
+	<label>Nama</label><br>
+	<input type="text">
+	<br>
+	<label>Tanggal Lahir :</label><br>
+	<input type="text">
+	<hr>
+	<h2 style = "color: red;"> Informasi Kontak </h2>
+	<hr>
+	<label>Alamat</label><br>
+	<textarea cols="40" rows="10"></textarea>
+	<br>
+	<label id="Provinsi">Provinsi</label><br>
+		<select>
+			<option>Jawa Barat</option>
+			<option>Jawa Tengah</option>
+			<option>Jawa Timur</option>
+			<option>Sulawesi Selatan</option>
+			<option>Kalimantan Selatan</option>
+		</select>
+	<br>
+	<label>Kota</label><br>
+		<select>
+			<option>Jakarta</option>
+			<option>Bandung</option>
+			<option>Yogyakarta</option>
+			<option>Denpasar</option>
+			<option>Depok</option>
+		</select>
+	<br>
+	<label>No HP</label><br>
+	<input type="text">
+	<br>
+	<label>Email</label><br>
+	<input type="email">
+	<br>
+	<label>Password</label><br>
+	<input type="password">
+	<br>
+	<label>Confirm Password</label><br>
+	<input type="password">
+	<br>
+	<label>Tipe Membership</label><br>
+	<input type="radio" name="membership" value="Reguler">
+	<label>Reguler</label>
+	<input type="radio"  value="Premium">
+	<label>Premium</label>
+	<input type="radio" value="VIP">
+	<label>VIP</label>
+	<br>
+	<hr>
+	<h2 style = "color: red;">Informasi Kursus</h2>
+	<hr>
+	<label>Nama Kursus</label><br>
+	<input type="text">
+	<br>
+	<label>Detail Pembayaran :</label><br>
+	<input type="radio" name="Pembayaran" value="Cash">
+	<label >Cash</label>
+	<input type="radio" name="Pembayaran" value="Cek">
+	<label>Cek</label>
+	<input type="radio" name="Pembayaran" value="Kartu Kredit">
+	<label>Kartu Kredit</label>
+	<br>
+	<label>Komentar</label><br>
+	<textarea cols="40" rows="10"></textarea>
+	<br>
+	<hr>
+	<input type="submit" value="submit">
+	</fieldset>
+	</form>
+
+
+</body>
+</html>
